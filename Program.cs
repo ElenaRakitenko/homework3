@@ -1,166 +1,84 @@
-﻿Console.WriteLine("");
-Console.WriteLine("");
+﻿
+ Console.WriteLine("");
+ Console.WriteLine("");
+ Console.WriteLine("Задача 19");
+ Console.WriteLine("Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом");
 
-Console.WriteLine("Задача 19");
-Console.WriteLine("Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом");
-
-// запрашивание ввода данных
+// запрашиваем ввод значений
 
 Console.WriteLine("Введите пятизначное число");
 int number = Convert.ToInt32(Console.ReadLine());
 
+int num1 = number / 10000;
+int num2 = (number / 1000) % 10;
+int num3 = (number / 10) % 10;
+int num4 = (number % 10);
 
-if ((number < 10000) && (number > 100000))
+
+if (number > 99999)
 {
-    Console.WriteLine("Число введено неверно, повторите ввод");
+    Console.WriteLine("Введите пятизначное число");
 }
-else if (number = number/10000) == (number = number % 10) && (number % 10000) == (number % 100))
+else if (number < 10000)
 {
-  
+    Console.WriteLine("Введите пятизначное число");
 }
-
-// {
-//     (number = number/10000) == (number = number % 10) && (number % 10000) == (number % 100))
-
-//     Console.WriteLine("Да");
-// }
-// else 
-// {
-//     Console.WriteLine("Нет");
-// }
+ else if ((num1 == num4) && (num2 == num3))
+{
+    Console.WriteLine($"Число {number} является палиндромом");
+}
+else
+{
+    Console.WriteLine($"Число {number} не является палиндромом");
+};
 
 
-// Задача 18
-
-// Console.WriteLine("Введите номер четверти");
-// int number = Convert.ToInt32(Console.ReadLine());
-
-// if (number == 1)
-// {
-//     Console.WriteLine("X>0 и Y>0");
-// }
-// else if (number == 2)
-// {
-//     Console.WriteLine("X<0 и Y>0");
-// }
-// else if (number == 3)
-// {
-//     Console.WriteLine("X<0 и Y<0");
-// }
-// else if (number == 4)
-// {
-//     Console.WriteLine("X>0 и Y<0");
-// }
-// else if(number > 4)
-// {
-//     Console.WriteLine("Номер четверти введен неверно,повторите ввод");
-// }
+ Console.WriteLine("");
+ Console.WriteLine("");
+ Console.WriteLine("Задача 21");
+ Console.WriteLine("Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве");
 
 
-// Задача 21
+// запрашиваем ввод значений
 
-// Console.WriteLine("Введите координату X1");
-// int X1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координату X1");
+int X1 = Convert.ToInt32(Console.ReadLine());
 
-// Console.WriteLine("Введите координату Y1");
-// int Y1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координату Y1");
+int Y1 = Convert.ToInt32(Console.ReadLine());
 
-// Console.WriteLine("Введите координату X2");
-// int X2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координату Z1");
+int Z1 = Convert.ToInt32(Console.ReadLine());
 
-// Console.WriteLine("Введите координату Y2");
-// int Y2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите координату X2");
+int X2 = Convert.ToInt32(Console.ReadLine());
 
-// double result = Math.Sqrt((Math.Pow((X2-X1),2)) + (Math.Pow((Y2-Y1),2)));
-// Console.WriteLine($"Расстояние между двумя точками {result}");
+Console.WriteLine("Введите координату Y2");
+int Y2 = Convert.ToInt32(Console.ReadLine());
 
+Console.WriteLine("Введите координату Z2");
+int Z2 = Convert.ToInt32(Console.ReadLine());
 
-// Задача 22
-
-// Console.WriteLine("Введите число");
-// int num = Convert.ToInt32(Console.ReadLine());
-
-// for (int i = 0; i <=num; i++)
-// {
-//     Console.WriteLine(Math.Pow(i,2));
-// } 
-//  Задача 17
-
-// Console.WriteLine("Введите X");
-// int X = Convert.ToInt32(Console.ReadLine());
-
-// Console.WriteLine("Введите Y");
-// int Y = Convert.ToInt32(Console.ReadLine());
-
-// if ((X > 0) && (Y > 0))
-// {
-//     Console.WriteLine("1 Четверть");
-// }
-// else if ((X<0) && (Y>0))
-// {
-//     Console.WriteLine("2 Четверть");
-// }
-// else if ((X<0) && (Y<0))
-// {
-//     Console.WriteLine("3 Четверть");
-// }
-// else if ((X>0) && (Y<0))
-// {
-//     Console.WriteLine("4 Четверть");
-// }
+double result = Math.Sqrt((Math.Pow((X2-X1),2)) + (Math.Pow((Y2-Y1),2)) + (Math.Pow((Z2-Z1),2)));
+Console.WriteLine($"Расстояние между двумя точками {result}");
 
 
-// Задача 18
 
-// Console.WriteLine("Введите номер четверти");
-// int number = Convert.ToInt32(Console.ReadLine());
-
-// if (number == 1)
-// {
-//     Console.WriteLine("X>0 и Y>0");
-// }
-// else if (number == 2)
-// {
-//     Console.WriteLine("X<0 и Y>0");
-// }
-// else if (number == 3)
-// {
-//     Console.WriteLine("X<0 и Y<0");
-// }
-// else if (number == 4)
-// {
-//     Console.WriteLine("X>0 и Y<0");
-// }
-// else if(number > 4)
-// {
-//     Console.WriteLine("Номер четверти введен неверно,повторите ввод");
-// }
+ Console.WriteLine("");
+ Console.WriteLine("");
+ Console.WriteLine("Задача 23");
+ Console.WriteLine("Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N");
 
 
-// Задача 21
+// запрашиваем ввод значений
 
-// Console.WriteLine("Введите координату X1");
-// int X1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число");
+int num = Convert.ToInt32(Console.ReadLine());
 
-// Console.WriteLine("Введите координату Y1");
-// int Y1 = Convert.ToInt32(Console.ReadLine());
+for (int i = 0; i <=num; i++)
+{
+    Console.WriteLine(Math.Pow(i,3));
+} 
 
-// Console.WriteLine("Введите координату X2");
-// int X2 = Convert.ToInt32(Console.ReadLine());
-
-// Console.WriteLine("Введите координату Y2");
-// int Y2 = Convert.ToInt32(Console.ReadLine());
-
-// double result = Math.Sqrt((Math.Pow((X2-X1),2)) + (Math.Pow((Y2-Y1),2)));
-// Console.WriteLine($"Расстояние между двумя точками {result}");
-
-
-// Задача 22
-
-// Console.WriteLine("Введите число");
-// int num = Convert.ToInt32(Console.ReadLine());
-
-// for (int i = 0; i <=num; i++)
-// {
-//     Console.WriteLine(Math.Pow(i,2));
-// } 
+Console.WriteLine("Программа HomeWork #3 завершена.");
+return 0;
