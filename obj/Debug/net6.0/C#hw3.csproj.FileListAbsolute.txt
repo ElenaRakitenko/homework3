@@ -1,0 +1,15 @@
+C:\Users\Elena\Desktop\учеба\sicharp — копия\C#hw3\obj\Debug\net6.0\C#hw3.csproj.AssemblyReference.cache
+C:\Users\Elena\Desktop\учеба\sicharp — копия\C#hw3\obj\Debug\net6.0\C#hw3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elena\Desktop\учеба\sicharp — копия\C#hw3\obj\Debug\net6.0\C#hw3.AssemblyInfoInputs.cache
+C:\Users\Elena\Desktop\учеба\sicharp — копия\C#hw3\obj\Debug\net6.0\C#hw3.AssemblyInfo.cs
+C:\Users\Elena\Desktop\учеба\sicharp — копия\C#hw3\obj\Debug\net6.0\C#hw3.csproj.CoreCompileInputs.cache
+C:\Users\Elena\Desktop\учеба\sicharp — копия\C#hw3\bin\Debug\net6.0\C#hw3.exe
+C:\Users\Elena\Desktop\учеба\sicharp — копия\C#hw3\bin\Debug\net6.0\C#hw3.deps.json
+C:\Users\Elena\Desktop\учеба\sicharp — копия\C#hw3\bin\Debug\net6.0\C#hw3.runtimeconfig.json
+C:\Users\Elena\Desktop\учеба\sicharp — копия\C#hw3\bin\Debug\net6.0\C#hw3.dll
+C:\Users\Elena\Desktop\учеба\sicharp — копия\C#hw3\bin\Debug\net6.0\C#hw3.pdb
+C:\Users\Elena\Desktop\учеба\sicharp — копия\C#hw3\obj\Debug\net6.0\C#hw3.dll
+C:\Users\Elena\Desktop\учеба\sicharp — копия\C#hw3\obj\Debug\net6.0\refint\C#hw3.dll
+C:\Users\Elena\Desktop\учеба\sicharp — копия\C#hw3\obj\Debug\net6.0\C#hw3.pdb
+C:\Users\Elena\Desktop\учеба\sicharp — копия\C#hw3\obj\Debug\net6.0\C#hw3.genruntimeconfig.cache
+C:\Users\Elena\Desktop\учеба\sicharp — копия\C#hw3\obj\Debug\net6.0\ref\C#hw3.dll
